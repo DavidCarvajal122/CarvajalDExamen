@@ -3,10 +3,24 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="CarvajalDExamen.Views.Chistes"
              Title="Chistes">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+    <AbsoluteLayout>
+
+        <Label x:Name="ChisteLabel"
+               FontSize="20"
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center"
+               AbsoluteLayout.LayoutBounds="0.5, 0.4, 0.9, 0.3"
+               AbsoluteLayout.LayoutFlags="All" />
+
+        <Button Text="Otro chiste"
+                Grid.Row="1"
+                Grid.Column="1"
+                TextColor="Yellow"
+                BackgroundColor="Red"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Clicked="OtroChiste"
+                AbsoluteLayout.LayoutBounds="0.5, 1, 1, 60"
+                AbsoluteLayout.LayoutFlags="WidthProportional,PositionProportional" />
+    </AbsoluteLayout>
 </ContentPage>
