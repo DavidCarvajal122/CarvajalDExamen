@@ -21,10 +21,10 @@ public partial class Chistes : ContentPage
         }
         catch
         {
-            ChisteLabel.Text = "Error al obtener el chiste.";
+            ChisteLabel.Text = "No se pudo cambiar el chiste";
         }
     }
-
+    
     private void OtroChiste(object sender, EventArgs e)
     {
         CargarChiste();

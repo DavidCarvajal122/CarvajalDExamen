@@ -1,51 +1,49 @@
 <?xml version="1.0" encoding="utf-8" ?>
+
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="CarvajalDExamen.Views.SobreMi"
              Title="SobreMi">
-    
-        <Grid Padding="20"
-              RowDefinitions="Auto, Auto"
-              ColumnDefinitions="*, *"
-              ColumnSpacing="20"
-              RowSpacing="20">
+    <Grid Padding="20"
+      RowDefinitions="Auto, Auto"
+      ColumnDefinitions="*, *"
+      ColumnSpacing="20"
+      RowSpacing="20">
 
-            <Frame Grid.Row="0" Grid.Column="0"
-                   BorderColor="Gray" CornerRadius="10"
-                   Padding="10" Margin="0">
-                <VerticalStackLayout>
-                    <Label Text="Nombre:" FontAttributes="Bold" FontSize="16"/>
-                    <Label Text="David Carvajal" FontSize="14"/>
-                </VerticalStackLayout>
-            </Frame>
+        <Frame Grid.Row="0" Grid.Column="0"
+           BorderColor="Gray" CornerRadius="0"
+           Padding="10" Margin="0">
+            <VerticalStackLayout>
+                <Label Text="Nombre:" FontAttributes="Bold" FontSize="16"/>
+                <Label Text="David Carvajal" FontSize="17"/>
+            </VerticalStackLayout>
+        </Frame>
 
-            <Frame Grid.Row="0" Grid.Column="1"
-                   BorderColor="Gray" CornerRadius="10"
-                   Padding="10" Margin="0">
-                <VerticalStackLayout>
-                    <Label Text="Fecha de Nacimiento:" FontAttributes="Bold" FontSize="16"/>
-                    <Label Text="10/11/2004" FontSize="14"/>
-                </VerticalStackLayout>
-            </Frame>
+        <Frame Grid.Row="0" Grid.Column="1"
+           BorderColor="Gray" CornerRadius="0"
+           Padding="10" Margin="0">
+            <VerticalStackLayout>
+                <Label Text="Fecha de Nacimiento:" FontAttributes="Bold" FontSize="16"/>
+                <Label Text="10/11/2004" FontSize="17"/>
+            </VerticalStackLayout>
+        </Frame>
 
-            <Frame Grid.Row="1" Grid.Column="0"
-                   BorderColor="Gray" CornerRadius="10"
-                   Padding="10" Margin="0">
-                <VerticalStackLayout>
-                    <Label Text="Intereses:" FontAttributes="Bold" FontSize="16"/>
-                    <Label Text="Deportes" FontSize="14"/>
-                </VerticalStackLayout>
-            </Frame>
+        <Frame Grid.Row="1" Grid.Column="0"
+           BorderColor="Gray" CornerRadius="0"
+           Padding="10" Margin="0">
+            <VerticalStackLayout>
+                <Label Text="Intereses:" FontAttributes="Bold" FontSize="16"/>
+                <Label Text="Deportes" FontSize="17"/>
+            </VerticalStackLayout>
+        </Frame>
 
-            <Frame Grid.Row="1" Grid.Column="1"
-                   BorderColor="Gray" CornerRadius="10"
-                   Padding="10" Margin="0">
-                <VerticalStackLayout>
-                    <Label Text="Versión:" FontAttributes="Bold" FontSize="16"/>
-                    <Label Text="1.0" FontSize="14"/>
-                </VerticalStackLayout>
-            </Frame>
-
-        </Grid>
-    
+        <Frame Grid.Row="1" Grid.Column="1"
+           BorderColor="Gray" CornerRadius="0"
+           Padding="10" Margin="0">
+            <VerticalStackLayout>
+                <Label Text="Versión:" FontAttributes="Bold" FontSize="16"/>
+                <Label Text="1.0" FontSize="17"/>
+            </VerticalStackLayout>
+        </Frame>
+    </Grid>
 </ContentPage>
