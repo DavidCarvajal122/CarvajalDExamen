@@ -61,7 +61,17 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiImage Remove="Resources\Images\monito.jpg" />
+	  <MauiImage Remove="Resources\Images\monito.png.jpg" />
+	</ItemGroup>
+
+	<ItemGroup>
 	  <MauiXaml Remove="Views\NewPage1.xaml" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Remove="Resources\Images\monito.jpg" />
+	  <None Remove="Resources\Images\monito.png.jpg" />
 	</ItemGroup>
 
 	<ItemGroup>
